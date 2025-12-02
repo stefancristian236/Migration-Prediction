@@ -1,2 +1,2 @@
-Unnamed: 0,species,forest_label,latitude,longitude,ndwi,mndwi,ndbi,ndvi,ndmi,phase,year,month
-0,European pied flycatcher,1,,,,,,,,,,
+Unnamed: 0,species,forest_label,latitude,longitude,ndwi,mndwi,ndbi,ndvi,ndmi,phase,year,month,continet,country
+0,European pied flycatcher,1,,,,,,,,,,,,
