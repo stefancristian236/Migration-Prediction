@@ -1,2 +1,2 @@
-Unnamed: 0,species,forest_label,latitude,longitude,ndwi,mndwi,ndbi,ndvi,ndmi
-18,Eurasian Hoopoe,0,,,,,,,
+Unnamed: 0,species,forest_label,latitude,longitude,ndwi,mndwi,ndbi,ndvi,ndmi,phase,year,month
+18,Eurasian Hoopoe,0,,,,,,,,,,

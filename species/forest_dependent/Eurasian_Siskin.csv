@@ -1,2 +1,2 @@
-Unnamed: 0,species,forest_label,latitude,longitude,ndwi,mndwi,ndbi,ndvi,ndmi
-7,Eurasian Siskin,1,,,,,,,
+Unnamed: 0,species,forest_label,latitude,longitude,ndwi,mndwi,ndbi,ndvi,ndmi,phase,year,month
+7,Eurasian Siskin,1,,,,,,,,,,

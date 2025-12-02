@@ -1,2 +1,2 @@
-Unnamed: 0,species,forest_label,latitude,longitude,ndwi,mndwi,ndbi,ndvi,ndmi
-1,Spotted flycatcher,1,,,,,,,
+Unnamed: 0,species,forest_label,latitude,longitude,ndwi,mndwi,ndbi,ndvi,ndmi,phase,year,month
+1,Spotted flycatcher,1,,,,,,,,,,
