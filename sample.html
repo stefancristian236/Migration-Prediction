@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_991b1c90dd50da19316e4a3781898f59 {
+                #map_0ba34e8b75b3ddb2537673091fca9a3d {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -55,25 +55,25 @@
     
     
      <div style="position: fixed; 
-     bottom: 50px; left: 50px; width: 180px; height: 130px; 
+     bottom: 50px; left: 50px; width: 250px; height: 130px; 
      border:2px solid grey; z-index:9999; font-size:14px;
      background-color:rgba(255, 255, 255, 0.8);
      padding: 10px; border-radius: 5px;">
      <b>Blackcap Migration</b><br>
-     <i style="color:#00FFFF">___</i> 2016 (Actual)<br>
-     <i style="color:#FF00FF">___</i> 2024 (Actual)<br>
-     <i style="color:#32CD32">_ _</i> 2030 (Predicted)<br>
+     <i style="color:#00FFFF">___</i> 2016 (Oldest route)<br>
+     <i style="color:#FF00FF">___</i> 2024 (Newest route)<br>
+     <i style="color:#32CD32">_ _</i> 2030 (Predicted route)<br>
      </div>
      
     
-            <div class="folium-map" id="map_991b1c90dd50da19316e4a3781898f59" ></div>
+            <div class="folium-map" id="map_0ba34e8b75b3ddb2537673091fca9a3d" ></div>
         
 </body>
 <script>
     
     
-            var map_991b1c90dd50da19316e4a3781898f59 = L.map(
-                "map_991b1c90dd50da19316e4a3781898f59",
+            var map_0ba34e8b75b3ddb2537673091fca9a3d = L.map(
+                "map_0ba34e8b75b3ddb2537673091fca9a3d",
                 {
                     center: [20.0, 15.0],
                     crs: L.CRS.EPSG3857,
@@ -90,7 +90,7 @@
 
         
     
-            var tile_layer_06535dfdb33bc184c2993b463c852afd = L.tileLayer(
+            var tile_layer_dd705572b451954aef719cf5752bea6b = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -107,22 +107,22 @@
             );
         
     
-            tile_layer_06535dfdb33bc184c2993b463c852afd.addTo(map_991b1c90dd50da19316e4a3781898f59);
+            tile_layer_dd705572b451954aef719cf5752bea6b.addTo(map_0ba34e8b75b3ddb2537673091fca9a3d);
         
     
-            var feature_group_9f4239d35643e45cd598c222c6b403be = L.featureGroup(
+            var feature_group_762aad5a63b01e1c49a3b57b15ad1387 = L.featureGroup(
                 {
 }
             );
         
     
-            var poly_line_5cef59dbf409fb5b680b3e4ac76f5489 = L.polyline(
+            var poly_line_4c25dde18d68fd6f918de246d2f346fd = L.polyline(
                 [[42.31036476190476, -0.30610428571428566], [41.6759164, 0.5876408000000002], [39.046991463414635, -3.159664878048781], [39.9428044047619, -0.9282764285714287], [38.88810032258065, -2.8172054838709677]],
                 {"bubblingMouseEvents": true, "color": "#00FFFF", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00FFFF", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(feature_group_9f4239d35643e45cd598c222c6b403be);
+            ).addTo(feature_group_762aad5a63b01e1c49a3b57b15ad1387);
         
     
-            poly_line_5cef59dbf409fb5b680b3e4ac76f5489.bindTooltip(
+            poly_line_4c25dde18d68fd6f918de246d2f346fd.bindTooltip(
                 `<div>
                      Blackcap 2016 (Actual)
                  </div>`,
@@ -132,13 +132,13 @@
             );
         
     
-            var poly_line_fbd02d59f4adfcc23dae147f9d2808e4 = L.polyline(
+            var poly_line_e99b160710417d15c4448d0578afe396 = L.polyline(
                 [[53.76904923703704, 10.006265644444444], [52.91040877477477, 8.49733818918919], [53.125232159999996, 8.3807318], [62.70916925, 10.216095]],
                 {"bubblingMouseEvents": true, "color": "#FF00FF", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#FF00FF", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9f4239d35643e45cd598c222c6b403be);
+            ).addTo(feature_group_762aad5a63b01e1c49a3b57b15ad1387);
         
     
-            poly_line_fbd02d59f4adfcc23dae147f9d2808e4.bindTooltip(
+            poly_line_e99b160710417d15c4448d0578afe396.bindTooltip(
                 `<div>
                      Blackcap 2024 (Actual)
                  </div>`,
@@ -148,13 +148,13 @@
             );
         
     
-            var poly_line_239a17d240bec61ddd9e86e09ec6bf39 = L.polyline(
+            var poly_line_7e8400cbe1aca1b4eb656fb19c1d8eee = L.polyline(
                 [[55.1649403030556, 9.33880164138889], [55.17135328428575, 8.336241079285715], [55.57100111571425, 8.619649088071432], [53.042807248571386, 6.086966872142861], [49.026362107142866, 4.794604324285709], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992], [48.28896903000003, 4.453895244999992]],
                 {"bubblingMouseEvents": true, "color": "#32CD32", "dashArray": "5, 10", "dashOffset": null, "fill": false, "fillColor": "#32CD32", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 4}
-            ).addTo(feature_group_9f4239d35643e45cd598c222c6b403be);
+            ).addTo(feature_group_762aad5a63b01e1c49a3b57b15ad1387);
         
     
-            poly_line_239a17d240bec61ddd9e86e09ec6bf39.bindTooltip(
+            poly_line_7e8400cbe1aca1b4eb656fb19c1d8eee.bindTooltip(
                 `<div>
                      Blackcap 2030 (Predicted)
                  </div>`,
@@ -164,30 +164,30 @@
             );
         
     
-            var circle_marker_1386970220645e17534b126fa20e7945 = L.circleMarker(
+            var circle_marker_ccba9f6ae0b714564aad26700e9b0c3c = L.circleMarker(
                 [55.1649403030556, 9.33880164138889],
                 {"bubblingMouseEvents": true, "color": "#32CD32", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#32CD32", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9f4239d35643e45cd598c222c6b403be);
+            ).addTo(feature_group_762aad5a63b01e1c49a3b57b15ad1387);
         
     
-        var popup_36d293f763680cefdf5356d5374bef88 = L.popup({
+        var popup_56054d964e0da0fb4f12d9497d38bdf0 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_9800bd78892835c51b1d3d657690852b = $(`<div id="html_9800bd78892835c51b1d3d657690852b" style="width: 100.0%; height: 100.0%;">Blackcap 2030 Start</div>`)[0];
-                popup_36d293f763680cefdf5356d5374bef88.setContent(html_9800bd78892835c51b1d3d657690852b);
+                var html_925c528fe80fe4c15d998e8af317f29b = $(`<div id="html_925c528fe80fe4c15d998e8af317f29b" style="width: 100.0%; height: 100.0%;">Blackcap 2030 Start</div>`)[0];
+                popup_56054d964e0da0fb4f12d9497d38bdf0.setContent(html_925c528fe80fe4c15d998e8af317f29b);
             
         
 
-        circle_marker_1386970220645e17534b126fa20e7945.bindPopup(popup_36d293f763680cefdf5356d5374bef88)
+        circle_marker_ccba9f6ae0b714564aad26700e9b0c3c.bindPopup(popup_56054d964e0da0fb4f12d9497d38bdf0)
         ;
 
         
     
     
-            feature_group_9f4239d35643e45cd598c222c6b403be.addTo(map_991b1c90dd50da19316e4a3781898f59);
+            feature_group_762aad5a63b01e1c49a3b57b15ad1387.addTo(map_0ba34e8b75b3ddb2537673091fca9a3d);
         
 </script>
 </html>
