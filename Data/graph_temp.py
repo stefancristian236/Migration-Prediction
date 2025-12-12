@@ -107,7 +107,7 @@ for loc in locations:
             label=f"{year}"
         )
 
-    ax.set_title(f"Daily Mean Temperature Comparison\n{label}", fontweight="bold")
+    ax.set_title(f"Daily Mean Temperature Comparison", fontweight="bold")
     ax.set_ylabel("Temperature (°C)")
     ax.set_xlabel("Month")
     ax.set_xticks(month_starts)
